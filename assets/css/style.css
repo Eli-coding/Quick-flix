@@ -1,0 +1,22 @@
+.title{
+    flex-direction: column;
+    text-align: center;
+    margin: auto;    
+}
+.paragraph{
+    flex-direction: column;
+    text-align: center;
+}
+.startButton{
+    font-size: 25px;
+    font-weight: 500;
+    color: #007BFF;
+    padding: 15px 30px;
+    outline: none;
+    border: black;
+    border-radius: 5px;
+    background: #fff;
+    cursor: pointer;
+    margin: 0 auto;
+    display: block;
+}
