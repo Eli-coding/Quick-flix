@@ -12,8 +12,8 @@
     font-weight: 500;
     color: #007BFF;
     padding: 15px 30px;
-    outline: none;
-    border: black;
+    outline: black;
+    border-style: solid;
     border-radius: 5px;
     background: #fff;
     cursor: pointer;
