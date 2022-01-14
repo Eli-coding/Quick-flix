@@ -8,7 +8,7 @@
     text-align: center;
 }
 .startButton{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 500;
     color: #007BFF;
     padding: 15px 30px;
@@ -22,4 +22,35 @@
 }
 .hide {
     display: none;
+    background-color: white;
+    box-shadow: 0 0 10px #FF5733
+}
+body {
+  background-image: url("");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 40px;
+}
+#table {
+  position: relative;
+  width: 800px; height: 300px;
+  background-color: transparent;
+  border: solid 1px white;
+  overflow: hidden;
+}
+#table:before {
+  content: '';
+  position: absolute;
+  right: 30%; bottom: 100%;
+  height: 20px; width: 100%;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  transform-origin: 100% 100%;
+  transform: rotate(-70deg);
+}
+.background-image {
+  background-image: url('..\assets\images\Neon.jpg');
+  background-size: contain;
+  width: 200px;
+  height: 200px;
 }
