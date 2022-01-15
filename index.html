@@ -17,20 +17,22 @@
         <img src="./assets/images/neon.jpg"/>
     </header>
     <main>
-        <div class="paragraph" id="startArea">Welcome to our app! You will be asked a serious of questions to help you
-            choose a movie to watch <br> as well as get you list of theatres near you
+        <div class="paragraph" id="startArea">Welcome! <br> Need help inding a movie? we got you covered, choose a genre and we'll let you know what's hot right now.
         </div>
         <div class="question" id="question1">
             <h3>What are you in the mood for?</h3>
         </div>
         <div class="dropdown">
-            <button onclick="myFunction()" class="dropbtn">Genre</button>
+            <button onclick="myFunction()" class="dropbtn">Choose one</button>
             <div id="myDropdown" class="dropdown-content">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
-              <a href="#">Link 3</a>
+              <a href="#">Comedy</a>
+              <a href="#">Action</a>
+              <a href="#">Family</a>
+              <a href="#">Thriller</a>
+              <a href="#">Romance</a>
             </div>
           </div>
+          <div class="posterArea" id="poster"></div>
     </main>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"
     integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
@@ -38,4 +40,4 @@
 </body>
 
 </html>
-<!-- todo: fix jquery non defined error, get questions to populate on screen, work on CSS, API integration -->
+<!-- todo: fix jquery non defined error,  work on CSS, API integration -->

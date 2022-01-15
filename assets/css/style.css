@@ -9,7 +9,7 @@
 }
 
 body {
-  background-image: url("");
+  background-image: url("\images\Neon.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   padding: 40px;
@@ -32,7 +32,7 @@ body {
   transform: rotate(-70deg);
 }
 .background-image {
-  background-image: url('..\assets\images\Neon.jpg');
+  background-image: url("./assets/images/neon.jpg");
   background-size: contain;
   width: 200px;
   height: 200px;
@@ -44,6 +44,8 @@ body {
   font-size: 16px;
   border: none;
   cursor: pointer;
+  display: flex;
+  flex-direction: column;
 }
 
 .dropbtn:hover, .dropbtn:focus {
@@ -75,3 +77,8 @@ body {
 .dropdown-content a:hover {background-color: #ddd}
 
 .show {display:block;}
+
+.question {
+  text-align: center;
+  flex: center;
+}
