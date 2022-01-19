@@ -77,6 +77,59 @@ body {
   transform-origin: 100% 100%;
   transform: rotate(-70deg);
 }
+.background-image {
+  background-image: url("./assets/images/neon.jpg");
+  background-size: contain;
+  width: 200px;
+  height: 200px;
+}
+.dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+.dropdown {
+  position: absolute;
+  display: block;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd}
+
+.show {display:block;}
+
+.question {
+  text-align: center;
+  flex: center;
+}
 .big-image {
   height: 100vh;
   width: 100vw;
@@ -84,7 +137,7 @@ body {
   background-size: cover;
   background-position: 50% 50%;
   background-image: url(assets\images\Neon.jpg);
-} */
+} 
 .overlay {
   position: absolute;
   height: 100%;
@@ -102,4 +155,11 @@ div {
   border-color: #033A97;
   padding: 50px;
   margin: 20px;
+}
+.footer {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  color: black;
+  font-size: initial;
 }
