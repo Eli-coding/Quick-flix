@@ -12,7 +12,7 @@ h1 {
   margin-inline-end: 0px;
   font-weight: bold;
   color: #fff;
-  font-family:'Titan One', cursive;
+  font-family:'Limelight', cursive;
 }
 h2{
   display: block;
@@ -24,13 +24,14 @@ h2{
   font-weight: bold;
   color: #fff;
   padding-left: 10px;
-  font-family: 'Titan One', cursive;
+  font-family:'Limelight', cursive;
 }
 .paragraph{
     flex-direction: column;
     text-align: center;
     color: #fff;
-    font-size: 15px;
+    font-size: 25px;
+    font-family: 'Limelight', cursive;
 }
 .startButton{
     font-size: 20px;
@@ -44,6 +45,7 @@ h2{
     cursor: pointer;
     margin: 0 auto;
     display: block;
+    font-family: 'Limelight', cursive;
 }
 .hide {
     display: none;
@@ -149,17 +151,25 @@ body {
   justify-content: center;
   flex-direction: column;
 } 
-/*div {
-  width: 300px;
+div {
+  width: 600px;
   border: 15px solid #FF5733;
   border-color: #033A97;
   padding: 50px;
-  margin: 20px;
-}*/
+  margin: 250px;
+  right: 300px;
+}
 .footer {
-  text-align: center;
-  display: flex;
   flex-direction: column;
-  color: black;
-  font-size: initial;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Limelight', cursive;
+}
+h3 {
+  flex-direction: column;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Limelight', cursive;
 }
