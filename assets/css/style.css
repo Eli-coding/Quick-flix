@@ -5,7 +5,7 @@
 }
 h1 {
   display: block;
-  font-size: 2em;
+  font-size: 2em; 
   margin-block-start: 0.67em;
   margin-block-end: 0.67em;
   margin-inline-start: 0px;
@@ -149,13 +149,13 @@ body {
   justify-content: center;
   flex-direction: column;
 } 
-div {
+/*div {
   width: 300px;
   border: 15px solid #FF5733;
   border-color: #033A97;
   padding: 50px;
   margin: 20px;
-}
+}*/
 .footer {
   text-align: center;
   display: flex;
