@@ -5,7 +5,7 @@
 }
 h1 {
   display: block;
-  font-size: 2em; 
+  font-size: 4em; 
   margin-block-start: 0.67em;
   margin-block-end: 0.67em;
   margin-inline-start: 0px;
@@ -24,7 +24,7 @@ h2{
   font-weight: bold;
   color: #fff;
   padding-left: 10px;
-  font-family:'Limelight', cursive;
+  font-family:'Hahmlet', serif;
 }
 .paragraph{
     flex-direction: column;
@@ -33,20 +33,7 @@ h2{
     font-size: 25px;
     font-family: 'Limelight', cursive;
 }
-/* .startButton{ 
-    font-size: 20px;
-    font-weight: 500;
-    color: #000d37;
-    padding: 15px 30px;
-    outline: black;
-    border-style: solid;
-    border-radius: 5px;
-    background: #00bcd4;
-    cursor: pointer;
-    margin: 0 auto;
-    display: block;
-    font-family: 'Limelight', cursive;
-} */
+
 .hide {
     display: none;
     background-color: white;
