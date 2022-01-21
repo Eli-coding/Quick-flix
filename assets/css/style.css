@@ -79,12 +79,12 @@ body {
   transform-origin: 100% 100%;
   transform: rotate(-70deg);
 }
-.background-image {
+/* .background-image {
   background-image: url("./assets/images/Spikes.jpg");
   background-size: contain;
   width: 200px;
   height: 200px;
-}
+} */
 .dropbtn { 
   background-color: #3498DB;
   color: white;
