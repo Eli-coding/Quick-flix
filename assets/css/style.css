@@ -33,20 +33,6 @@ h2{
     font-size: 25px;
     font-family: 'Limelight', cursive;
 }
-/* .startButton{ 
-    font-size: 20px;
-    font-weight: 500;
-    color: #000d37;
-    padding: 15px 30px;
-    outline: black;
-    border-style: solid;
-    border-radius: 5px;
-    background: #00bcd4;
-    cursor: pointer;
-    margin: 0 auto;
-    display: block;
-    font-family: 'Limelight', cursive;
-} */
 .hide {
     display: none;
     background-color: white;
@@ -79,12 +65,12 @@ body {
   transform-origin: 100% 100%;
   transform: rotate(-70deg);
 }
-/* .background-image {
+.background-image {
   background-image: url("./assets/images/Spikes.jpg");
   background-size: contain;
   width: 200px;
   height: 200px;
-} */
+}
 .dropbtn { 
   background-color: #3498DB;
   color: white;
@@ -150,14 +136,6 @@ body {
   justify-content: center;
   flex-direction: column;
 } 
-/* div {
-  width: 600px;
-  border: 15px solid #FF5733;
-  border-color: #033A97;
-  padding: 50px;
-  margin: 250px;
-  right: 300px;
-} */
 .footer {
   flex-direction: column;
     text-align: center;
