@@ -1,3 +1,17 @@
+body {
+  background: url("../images/Spikes.jpg") no-repeat center center ;
+  padding: 40px;
+  margin: 0;
+  background-size: cover;
+  opacity: 1;
+}
+.background-image {
+  background-image: url("./assets/images/Spikes.jpg");
+  background-size: contain;
+  width: 200px;
+  height: 200px;
+}
+
 .title{
     flex-direction: column;
     text-align: center;
@@ -26,6 +40,13 @@ h2{
   padding-left: 10px;
   font-family:'Limelight', cursive;
 }
+h3 {
+  flex-direction: column;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Limelight', cursive;
+}
 .paragraph{
     flex-direction: column;
     text-align: center;
@@ -38,16 +59,8 @@ h2{
     background-color: white;
     box-shadow: 0 0 10px #FF5733
 }
-.startButton:hover{
-  background-color:#FF5733 ;
-}
-body {
-  background: url("../images/Spikes.jpg") no-repeat center center ;
-  padding: 40px;
-  margin: 0;
-  background-size: cover;
-  opacity: 1;
-}
+
+
 #table {
   position: relative;
   width: 800px; height: 300px;
@@ -65,6 +78,7 @@ body {
   transform-origin: 100% 100%;
   transform: rotate(-70deg);
 }
+
 .dropbtn { 
   background-color: #3498DB;
   color: white;
