@@ -84,17 +84,14 @@ h3 {
   justify-content: center;
   align-items: center;
   }
-
 .dropbtn:hover, .dropbtn:focus {
   background-color: #2980B9;
 }
-
 .dropdown {
   position: absolute;
   display: block;
   margin: 0;
 }
-
 .dropdown-content {
   display: none;
   position: absolute;
@@ -134,10 +131,21 @@ h3 {
 .footer {
   flex-direction: column;
     text-align: center;
+    font-size: 25px;
+    font-family: 'Limelight', cursive;
+    color:white;
+}
+h3 {
+  flex-direction: column;
+    text-align: center;
     color: #fff;
-    font-size: 20px;
+    font-size: 25px;
     font-family: 'Limelight', cursive;
     background: none;
+}
+.jumbotron { 
+  padding: 30px; /* fills out the jumbotron */
+  background-color: midnightblue;
 }
 
 #textContainer{
@@ -163,4 +171,22 @@ h3 {
 /* Solid border */
 hr.solid {
   border-top: 3px solid rgb(255, 255, 255);
+}
+.container {
+  width: 1170px; /* specify a width */
+  margin: 0 auto;  /* centers the container */
+  padding: 0 15px; /* adds some padding to the left and right*/
+}
+
+.jumbotron .container { 
+  max-width: 100%; /* allows the jumbotron to adjust on smaller widths */
+  background-color: midnightblue;
+}
+
+.jumbotron h1 { 
+  text-align: center; /* centers the heading */
+  color: #DDD;
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
 }
