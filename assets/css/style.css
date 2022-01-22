@@ -149,7 +149,7 @@ h3 {
 }
 .jumbotron { 
   padding: 30px; /* fills out the jumbotron */
-  background-color: #111;
+  background-color: midnightblue;
 }
 
 .container {
@@ -160,7 +160,7 @@ h3 {
 
 .jumbotron .container { 
   max-width: 100%; /* allows the jumbotron to adjust on smaller widths */
-  background-color: 010103;
+  background-color: midnightblue;
 }
 
 .jumbotron h1 { 
