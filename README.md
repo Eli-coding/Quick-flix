@@ -19,6 +19,6 @@ catch flicks not feelings
     - As a user, I am given a movie choice and movie thether to go to. 
 - APIs: Google Maps for movie locations, OMDb Api for movie poster and Rotten Tomatos APIs for the movie ratings 
 - Task Breakdown:
-    - Douglas (Get Apis authorization,css, rotten tomatoes apis  )
-    - Elizabeth (Javascript, google maps api, jquery )
-    - Thomas (OMDP api, HTML, javascript)
+    - Douglas (HTML, movie rating api,drop down menu, JS)
+    - Elizabeth (Javascript, google maps api, css, HTML )
+    - Thomas (OMDP api, HTML, javascript,css)
