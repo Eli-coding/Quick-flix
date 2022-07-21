@@ -17,7 +17,7 @@ SO THAT I do not waste time deciding when I am at the movie theater.
  
 
 -Deployed link:
-https://eli-coding.github.io/project-1/ 
+https://eli-coding.github.io/Quick-flix/
 
 -Screenshots:
 
