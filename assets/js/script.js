@@ -31,7 +31,6 @@ function initMap() {
 
 
   if (navigator.geolocation) {
-    console.log("Geolocation available");
 
     navigator.geolocation.getCurrentPosition((loc) => {
 
@@ -47,7 +46,6 @@ function initMap() {
     )
 
   } else {
-    console.log("Geolocation not supported");
     map = new google.maps.Map(document.getElementById("map"), options);
   }
 
@@ -68,10 +66,18 @@ function initMap() {
     })
   });
 
+//   navigator.geolocation.getCurrentPosition(function(p){
+//     localStorage.setItem("latitude", p.coords.latitude);
+//     localStorage.setItem("longitude", p.coords.longitude)
+//  }, function(e){console.log(e)})
+//  console.log("saved lat",latitude) 
+//  console.log("saved long", longitude)
 }
+
 //drop down menu 
+
+
 function getMovie(event) {
-  console.log(event.target)
   var genre;
   switch (event.target.innerText) {
     case "Comedy":
@@ -95,14 +101,12 @@ function getMovie(event) {
   fetch('https://api.themoviedb.org/3/discover/movie?with_genres='+genre+'&sort_by=popularity.desc&api_key=c4ce49d4635009b34fab74a629cf65b3')
     .then(response => response.json())
     .then(data => {
-      console.log(data)
       for(var i =0; i < 3; i++){
       var posterContainer = document.getElementById("poster")
       var movieContainer = document.createElement("div")
       var movieTitle = document.createElement("h1")
       var movieRating = document.createElement("h3")
       var poster = document.createElement("img")
-      console.log(data[i])
       movieTitle.innerText = data.results[i].title
       movieContainer.append(movieTitle)
       movieRating.innerText = data.results[i].vote_average
