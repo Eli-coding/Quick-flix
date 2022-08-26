@@ -15,6 +15,8 @@ window.onclick = function (event) {
   }
 }
 
+
+//map area 
 function initMap() {
   var location = {
     lat: 40.000,
@@ -27,7 +29,6 @@ function initMap() {
 
   }
 
-  // map = new google.maps.Map(document.getElementById("map"), options);
 
   if (navigator.geolocation) {
 
@@ -73,6 +74,9 @@ function initMap() {
 //  console.log("saved long", longitude)
 }
 
+//drop down menu 
+
+
 function getMovie(event) {
   var genre;
   switch (event.target.innerText) {
@@ -92,6 +96,8 @@ function getMovie(event) {
       genre = 10749
       break
   }
+
+  //api movie ratings and movie poster
   fetch('https://api.themoviedb.org/3/discover/movie?with_genres='+genre+'&sort_by=popularity.desc&api_key=c4ce49d4635009b34fab74a629cf65b3')
     .then(response => response.json())
     .then(data => {
